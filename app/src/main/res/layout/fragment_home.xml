@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toly="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.henshuai.meitameifa.view.NoScrollViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal">
+
+        <com.henshuai.meitameifa.view.MyRadioButton
+            android:id="@+id/rb_home"
+            style="@style/BottomTabStyle"
+            android:checked="true"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页"
+            android:textSize="13sp"
+            toly:rb_height="30dp"
+            toly:rb_width="30dp" />
+
+        <com.henshuai.meitameifa.view.MyRadioButton
+            android:id="@+id/rb_find"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_find_selector"
+            android:text="找宠物"
+            android:textSize="13sp"
+            toly:rb_height="30dp"
+            toly:rb_width="30dp" />
+
+        <com.henshuai.meitameifa.view.MyRadioButton
+            android:id="@+id/rb_message"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_message_selector"
+            android:text="优惠动态"
+            android:textSize="13sp"
+            toly:rb_height="30dp"
+            toly:rb_width="30dp" />
+
+        <com.henshuai.meitameifa.view.MyRadioButton
+            android:id="@+id/rb_order"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_order_selector"
+            android:text="订单"
+            android:textSize="13sp"
+            toly:rb_height="30dp"
+            toly:rb_width="30dp" />
+
+        <com.henshuai.meitameifa.view.MyRadioButton
+            android:id="@+id/rb_me"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_me_selector"
+            android:text="我的"
+            android:textSize="13sp"
+            toly:rb_height="30dp"
+            toly:rb_width="30dp" />
+
+
+    </RadioGroup>
+
+</LinearLayout>

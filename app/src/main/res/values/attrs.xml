@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyRadioButton">
+        <attr name="rb_width" format="dimension" />
+        <attr name="rb_height" format="dimension" />
+    </declare-styleable>
+</resources>
